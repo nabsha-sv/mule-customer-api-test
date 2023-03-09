@@ -5,8 +5,6 @@ This is a sample mule application that is written to evaluate candidates knowled
 * Database Integration
 
 
-This application has a PostGRES backend that has the following Schema. The database executable itself is not provided as part of this application. It is expected to be configured as a setup activity.
-
 ## Whats included 
 The provided application is a very rudimentary implementation that 
 * compiles fine without any extra setup/access
@@ -20,6 +18,7 @@ The provided application is a very rudimentary implementation that
 * Anypoint Studio: 7.14.0 
 * PostGRES: docker latest
 ## DB Schema
+This application has a PostGRES backend that has the following Schema. The database executable itself is not provided as part of this application. It is expected to be configured as a setup activity.
 ```
 create table public.customers
 (
